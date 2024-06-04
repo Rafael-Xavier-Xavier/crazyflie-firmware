@@ -1,4 +1,4 @@
-obj-y += test/
+obj-$(CONFIG_DECK_HELLO)        += hello.o
 obj-$(CONFIG_DECK_ACTIVE_MARKER)        += activeMarkerDeck.o
 obj-$(CONFIG_DECK_AI)                   += aideck.o
 obj-$(CONFIG_DECK_BIGQUAD)              += bigquad.o
