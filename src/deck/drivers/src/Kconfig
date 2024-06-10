@@ -465,6 +465,12 @@ config DECK_ZRANGER2
         mode. Over a floor it will stay on the same height, but will follow
         the flow of a stair case up or down when going on adventures.
 
+config DECK_SN
+    bool "ufuSN"
+    default y
+    help
+        Módulo Sinaleiro.
+
 config DECK_CPX_HOST_ON_UART2
   bool "Support wired external host using CPX on UART2"
   select ENABLE_CPX
