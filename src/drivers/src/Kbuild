@@ -1,3 +1,4 @@
+obj-y += wheel_driver.o
 obj-y += ak8963.o
 obj-y += cppm.o
 obj-y += eeprom.o
